@@ -1,13 +1,13 @@
 {
-    "name": "sibds/yii2-nestable",
+    "name": "blacksesion/yii2-nestable-advance",
     "description": "Extend Nestable(https://github.com/ASlatius/yii2-nestable) for internal projects",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","nestable"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Vadim Mazur",
-            "email": "mazurva@gmail.com"
+            "name": "BlackSesion",
+            "email": "blacksesion@gmail.com"
         }
     ],
     "require": {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sibds\\widgets\\": ""
+            "blacksesion\\widgets\\": ""
         }
     }
 }

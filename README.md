@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist sibds/yii2-nestable "*"
+php composer.phar require --prefer-dist blacksesion/yii2-nestable-advance "*"
 ```
 
 or add
 
 ```
-"sibds/yii2-nestable": "*"
+"blacksesion/yii2-nestable-advance": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \sibds\widgets\Nestable::widget(); ?>```
+<?= \blacksesion\widgets\Nestable::widget(); ?>```

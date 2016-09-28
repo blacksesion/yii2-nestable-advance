@@ -79,7 +79,7 @@ class Nestable extends \slatiusa\nestable\Nestable
                         'title'=>self::t('messages', 'To trash'),
                         'data-method' => 'POST',
                         'data-pjax' => '0',
-                        'data-confirm'=>"Вы действительно хотите удалить этот элемент?",
+                        'data-confirm'=>self::t('messages', 'To trash confirm'),
                     ],
                     'visible' => function($data){ return $data->hasAttribute('removed')&&!$data->removed;}],
                 ['label' => Icon::show('share-square-o', [], Icon::FA),
@@ -92,7 +92,7 @@ class Nestable extends \slatiusa\nestable\Nestable
                         'title'=>self::t('messages', 'Delete'),
                         'data-method' => 'POST',
                         'data-pjax' => '0',
-                        'data-confirm'=>"Вы действительно хотите удалить этот элемент?",
+                        'data-confirm'=>self::t('messages', 'Delete confirm'),
                     ],
                     'visible' => function($data){
                         if($data->hasAttribute('removed')){
@@ -114,19 +114,19 @@ class Nestable extends \slatiusa\nestable\Nestable
     public function registerTranslations()
     {
         $i18n = \Yii::$app->i18n;
-        $i18n->translations['sibds/widgets/nestable/*'] = [
+        $i18n->translations['blacksesion/widgets/nestable/*'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
-            'basePath' => '@vendor/sibds/yii2-nestable/messages',
+            'basePath' => '@vendor/blacksesion/yii2-nestable-advance/messages',
             'fileMap' => [
-                'sibds/widgets/nestable/messages' => 'messages.php',
+                'blacksesion/widgets/nestable/messages' => 'messages.php',
             ],
         ];
     }
 
     public static function t($category, $message, $params = [], $language = null)
     {
-        return Yii::t('sibds/widgets/nestable/' . $category, $message, $params, $language);
+        return Yii::t('blacksesion/widgets/nestable/' . $category, $message, $params, $language);
     }
 
     /**

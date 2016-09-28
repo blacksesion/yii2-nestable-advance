@@ -14,4 +14,6 @@ return [
     'To trash' => 'Enviar a Papelera',
     'Restore' => 'Restaurar',
     'Delete' => 'Eliminar',
+    'Delete confirm' => 'Realmente desea eliminar este item?',
+    'To trash confirm' => 'Realmente desea enviar a la papelera este item?',
 ];

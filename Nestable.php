@@ -1,6 +1,6 @@
 <?php
 
-namespace sibds\widgets;
+namespace blacksesion\widgets;
 
 use \Yii;
 use kartik\icons\FontAwesomeAsset;

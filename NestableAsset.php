@@ -6,7 +6,7 @@
  * Time: 0:24
  */
 
-namespace sibds\widgets;
+namespace blacksesion\widgets;
 
 
 class NestableAsset extends \kartik\base\AssetBundle {

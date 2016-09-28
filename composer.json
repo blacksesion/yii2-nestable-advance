@@ -2,11 +2,11 @@
     "name": "blacksesion/yii2-nestable-advance",
     "description": "Extend Nestable(https://github.com/ASlatius/yii2-nestable) for internal projects",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","nestable"],
+    "keywords": ["yii2","extension","nestable","advance"],
     "license": "MIT",
     "authors": [
         {
-            "name": "BlackSesion",
+            "name": "blacksesion",
             "email": "blacksesion@gmail.com"
         }
     ],
